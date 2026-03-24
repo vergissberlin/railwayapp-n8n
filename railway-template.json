@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vergissberlin/railway/main/docs/railway-template.schema.json",
+  "schemaVersion": 1,
+  "project": "railwayapp-n8n",
+  "repo": "vergissberlin/railwayapp-n8n",
+  "displayName": "n8n",
+  "publishedCode": "n8n-vb",
+  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-n8n/main/template-header.svg",
+  "description": "Deploy n8n workflow automation on Railway with one Docker service.",
+  "workspaceAutomation": false
+}
