@@ -18,6 +18,10 @@ Railway sets `PORT`; the image maps it to `N8N_PORT` at startup.
 
 Set `WEBHOOK_URL` to your public HTTPS URL if you use webhooks.
 
+## Persistence
+
+`railway.toml` declares `requiredMountPath = "/home/node/.n8n"` — this holds the SQLite database, the credential encryption key, and workflow data. Attach a Railway volume to that path before production traffic; without it, a redeploy generates a new encryption key and existing credentials become unreadable.
+
 ## Local
 
 ```bash
