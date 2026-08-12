@@ -6,6 +6,15 @@ n8n is an open-source, extendable workflow automation platform that lets you con
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-vb?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
+## 🏗️ Architecture
+
+```mermaid
+flowchart LR
+    Client(["🌐 Client"]) -->|HTTPS| Domain["Railway Public Domain"]
+    Domain -->|"$PORT → N8N_PORT"| App["Container\nn8nio/n8n:latest"]
+    App --> Volume[("Volume\n/home/node/.n8n")]
+```
+
 ## Environment
 
 | Variable | Required | Description |
