@@ -5,7 +5,8 @@
   "repo": "vergissberlin/railwayapp-n8n",
   "displayName": "n8n",
   "publishedCode": "n8n-vb",
-  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-n8n/main/template-header.svg",
+  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-n8n/main/logo-n8n.svg",
   "description": "Deploy n8n workflow automation on Railway with one Docker service.",
-  "workspaceAutomation": false
+  "workspaceAutomation": false,
+  "logoFile": "logo-n8n.svg"
 }
