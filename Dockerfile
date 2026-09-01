@@ -1,4 +1,4 @@
-ARG VERSION=2.35.3
+ARG VERSION=2.37.6
 
 # n8nio/n8n ships as a Docker Hardened Image without a package manager, so su-exec (needed to
 # drop privileges after the runtime chown below) has to come from a regular Alpine build stage.
