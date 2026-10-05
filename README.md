@@ -23,6 +23,8 @@ flowchart LR
 
 See `.env.example`. Railway sets `PORT`; the image maps it to `N8N_PORT` at startup.
 
+The published template generates an HTTP domain and mounts `/home/node/.n8n` automatically. It generates a stable `N8N_ENCRYPTION_KEY`, sets `N8N_PROXY_HOPS=1`, and derives `WEBHOOK_URL` and `N8N_EDITOR_BASE_URL` from the public HTTPS domain. The deployment healthcheck uses `/healthz/readiness` so readiness includes database availability instead of only serving the editor page.
+
 ## Optional
 
 Set `WEBHOOK_URL` to your public HTTPS URL if you use webhooks.
