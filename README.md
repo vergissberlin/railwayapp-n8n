@@ -33,6 +33,18 @@ Set `WEBHOOK_URL` to your public HTTPS URL if you use webhooks.
 
 `railway.toml` declares `requiredMountPath = "/home/node/.n8n"` — this holds the SQLite database, the credential encryption key, and workflow data. Attach a Railway volume to that path before production traffic; without it, a redeploy generates a new encryption key and existing credentials become unreadable.
 
+## Upgrading to n8n 3.x
+
+n8n 3.0 contains breaking changes. Before upgrading an existing deployment from 2.x:
+
+- **Back up** the volume at `/home/node/.n8n` (SQLite database and encryption key), or export your workflows and credentials.
+- Open the **Migration Report** in your 2.x instance (Settings) and resolve the issues it lists.
+- Legacy nodes such as **Function**, **Cron** and **Interval** are removed. Replace them with Code and Schedule Trigger nodes.
+- The default task runner timeout (`N8N_RUNNERS_TASK_TIMEOUT`) drops from **300 s to 60 s**. Set it explicitly if your Code nodes run longer.
+- Unverified community packages are disabled by default, and in-memory binary data mode is removed. `binaryData` is renamed to `storage` automatically.
+
+See the [n8n 3.0 breaking changes](https://docs.n8n.io/changelog/v30-breaking-changes/) for the full list.
+
 ## Local
 
 ```bash
