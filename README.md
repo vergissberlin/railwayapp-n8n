@@ -40,6 +40,10 @@ docker build -t railwayapp-n8n .
 docker run --rm -e N8N_ENCRYPTION_KEY=dev -p 5678:5678 railwayapp-n8n
 ```
 
+## 💬 Support
+
+Questions or feedback? Visit the [template forum on Railway Central Station](https://station.railway.com/templates/n8n-cf76126d).
+
 <!-- footer -->
 ---
 
