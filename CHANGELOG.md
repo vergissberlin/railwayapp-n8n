@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.3](https://github.com/vergissberlin/railwayapp-n8n/compare/v0.1.2...v0.1.3) (2026-10-28)
+
+
+### Documentation
+
+* fix Railway deploy button link and add template forum link ([#12](https://github.com/vergissberlin/railwayapp-n8n/issues/12)) ([1512da9](https://github.com/vergissberlin/railwayapp-n8n/commit/1512da946be279af2caf122d073b594587ffe76e))
+
+
+### Chores
+
+* **deps:** update n8nio/n8n docker tag to v2.46.0 ([#11](https://github.com/vergissberlin/railwayapp-n8n/issues/11)) ([d6e0b66](https://github.com/vergissberlin/railwayapp-n8n/commit/d6e0b666e020b097a7aa873919ba202847dfd65c))
+* **deps:** update n8nio/n8n docker tag to v2.46.1 ([#15](https://github.com/vergissberlin/railwayapp-n8n/issues/15)) ([a73785e](https://github.com/vergissberlin/railwayapp-n8n/commit/a73785e10efe2f19a35d45faac0713c7162476dd))
+
 ## [0.1.2](https://github.com/vergissberlin/railwayapp-n8n/compare/v0.1.1...v0.1.2) (2026-10-05)
 
 
