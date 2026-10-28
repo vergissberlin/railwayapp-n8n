@@ -4,7 +4,7 @@
 
 n8n is an open-source, extendable workflow automation platform that lets you connect apps, APIs, and services through a visual node-based editor, combining low-code building blocks with the ability to write custom JavaScript/Python where needed. This template deploys n8n on Railway with persistent storage for workflows, credentials, and execution history.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-vb?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/n8n-2?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ## 🏗️ Architecture
 
@@ -39,6 +39,10 @@ Set `WEBHOOK_URL` to your public HTTPS URL if you use webhooks.
 docker build -t railwayapp-n8n .
 docker run --rm -e N8N_ENCRYPTION_KEY=dev -p 5678:5678 railwayapp-n8n
 ```
+
+## 💬 Support
+
+Questions or feedback? Visit the [template forum on Railway Central Station](https://station.railway.com/templates/n8n-cf76126d).
 
 <!-- footer -->
 ---
