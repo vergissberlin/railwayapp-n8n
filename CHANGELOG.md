@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/vergissberlin/railwayapp-n8n/compare/v0.1.4...v0.1.5) (2026-11-07)
+
+
+### Chores
+
+* **deps:** update n8nio/n8n docker tag to v3.1.0 ([a71e194](https://github.com/vergissberlin/railwayapp-n8n/commit/a71e1946836755b021ed2f5642790bfef6038bee))
+
 ## [0.1.4](https://github.com/vergissberlin/railwayapp-n8n/compare/v0.1.3...v0.1.4) (2026-10-28)
 
 
